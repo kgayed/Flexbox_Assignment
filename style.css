@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+.tap {
+    background-color: #d06018;
+    min-height: 50px;
+    max-width: 1450px;
+    display: flex;
+    justify-content: end;
+}
+/*.box{*/
+/*    height: 30px;*/
+/*    width: 50px;*/
+/*    color: bisque;*/
+/*    display: flex;*/
+/*    justify-content: end;*/
+
+/*}*/
+.words{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+h2{
+    margin: 8px;
+    color: bisque;
+}
+.container{
+    background-image: url("https://www.muralswallpaper.co.uk/app/uploads/Pressed-Autumn-Leaf-Pattern-Wallpaper-Mural-Plain.jpg");
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ee683f;
+}
+
+.text{
+    min-height: 130px;
+    width: 350px;
+    background-color: #e5a832;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    margin: 15px;
+}
+.wrapper,.wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.box{
+    min-height: 200px;
+    background: #c09159;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+    margin: 15px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text2{
+    min-height: 200px;
+    width: 400px;
+    background-color: #e5a832;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    margin: 15px;
+}
+.wrapper3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.end{
+    background: #915502;
+    height: 50px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+
+
+/*.wrapper{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;!*change screen size is fine it moves down*!*/
+/*    justify-content: space-around;*/
+/*    align-items: flex-start;!*flex start put it at the top, end shift everything down*!*/
+/*    height: 400px;!*div and elements don't have a fixed height*!*/
+
+/*}*/
+
